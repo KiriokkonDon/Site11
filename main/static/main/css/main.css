@@ -1,0 +1,44 @@
+body {
+background: #FFF0F5;
+}
+aside{
+float: left;
+background: #FFE4E1;
+width:20%;
+padding:2.5%;
+height:100vh;
+color:#696969;
+border-right: 5px solid #FFFFFF;
+}
+aside img {
+float:left;
+}
+aside.logo{
+ front-size:50px;
+ margin-left:10px;
+ front-weight: bold;
+}
+aside h3{
+margin-top:80px
+front-size:30px;
+}
+aside ul {list-style: none}
+aside ul li {
+color:#CD5C5C;
+display: block;
+margin-top: 20px;
+transition:transform.6s ease;
+}
+aside ul li:hover, aside ul a:hover{
+color:#DC143C;
+text-decoration: none;
+transform: scale(1.05);
+}
+
+main .features{
+  float: left;
+  color: #CD5C5C
+  margin-top: 100px;
+  text-align: center;
+  width: 75%;
+}

@@ -1,0 +1,14 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Портфолио{% endblock %}
+
+{% block content %}
+ <div class="features">
+  <h1>Портфолио</h1>
+  <p>~~~~~~~~~~~~~~</p>
+   <button class="btn btn-secondary">UwU</button>
+  {%for el in obj.values%}
+   <p>{{ el }}</p>
+  {% endfor %}
+ </div>
+{% endblock %}
